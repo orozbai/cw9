@@ -17,7 +17,7 @@ import java.util.List;
 public class Status {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long idsssssss;
     private String status;
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "status")
     @OrderBy("name ASC")
